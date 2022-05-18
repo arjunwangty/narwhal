@@ -1,0 +1,128 @@
+.card {
+    margin: 8px 5.5px;
+    width: 307px;
+    height: 181px;
+    border: 1px solid #E4E7EC;
+    display: inline-block;
+    position: relative;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.card .avatar {
+    width: 36px;
+    position: absolute;
+    left: 5.21%;
+    top: 8.84%;
+    border-radius: 10%;
+}
+
+.card .name {
+    font-family: 'ProximaNova';
+    font-size: 16px;
+    line-height: 19px;
+    height: 19px;
+    left: 19.87%;
+    right: 12.87%;
+    top: calc(50% - 19px/2 - 64px);
+    color: #444444;
+    position: absolute;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card .date {
+    font-family: 'ProximaNova';
+    font-size: 13px;
+    line-height: 16px;
+    height: 16px;
+    left: 19.87%;
+    right: 20.39%;
+    top: calc(50% - 16px/2 - 44.5px);
+    /* identical to box height, or 123% */
+    color: #565656;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    position: absolute;
+}
+
+.card .desc {
+    font-family: 'ProximaNova';
+    font-size: 14px;
+    line-height: 17px;
+    /* or 121% */
+    color: #565656;
+
+    height: 34px;
+    left: 4.89%;
+    right: 5.86%;
+    top: calc(50% - 34px/2 - 3.5px);
+    position: absolute;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.card .footer {
+    font-size: 30px;
+    line-height: 50px;
+    width: 100%;
+    border-top: 1px solid #E4E7EC;
+    position: absolute;
+    bottom: 0;
+    padding: 0px 17px;
+
+}
+
+.card .footer .footer-item {
+    font-family: 'ProximaNova';
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0px 5px;
+    /* identical to box height, or 123% */
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.45;
+    vertical-align: middle;
+}
+
+.card .footer .footer-icon {
+    width: 12px;
+    margin: 0px 5px;
+}
+
+.card .star {
+    position: absolute;
+    left: 90.23%;
+    right: 4.56%;
+    top: 9.05%;
+    bottom: 82.51%;
+    color: #444444;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.card .star-selected {
+    position: absolute;
+    left: 90.23%;
+    right: 4.56%;
+    top: 9.05%;
+    bottom: 82.51%;
+    color: #F8CE43;
+    mix-blend-mode: normal;
+    cursor: pointer;
+}
+
+.card .star-selected:hover {
+    color: #F8CE43;
+    opacity: 0.5;
+}
+
+.card .star:hover {
+    color: #F8CE43;
+    opacity: 0.5;
+}

@@ -1,0 +1,127 @@
+.navbar {
+    height: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 0px #E2E2E2, 0px 0px 4px rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.navbar-user {
+    height: 60px;
+    vertical-align: middle;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 17px;
+    display: table;
+    width: 100%;
+}
+
+.navbar-1 {
+    padding: 0px 20px;
+    height: 60px;
+    width: 166px;
+    margin: 0;
+    border-right: 1px solid #E2E2E2;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    font-family: 'ProximaNova';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #1A1919;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+.navbar-2 {
+    height: 60px;
+    padding: 0px 80px 0px 27px;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: left;
+    font-family: 'ProximaNova';
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.navbar-3 {
+    height: 60px;
+    width: 300px;
+    padding: 0px 40px 0px 10px;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: right;
+}
+
+.navbar-3 Badge {
+    width: 18px;
+    height: 18px;
+    font-size: 8px;
+    font-family: ProximaNova;
+    border-radius: 50%;
+    padding-top: 0.5px;
+    background: #2995DA;
+    border: 2px solid #FFFFFF;
+}
+
+.navbar .icon {
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    margin: 0px 20px 0px 0px;
+    cursor: pointer;
+}
+
+.navbar .avatar {
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0px 10px 0px 10px;
+}
+
+.navbar .greeting-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'ProximaNova';
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    max-width: 130px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-3 {
+        padding: 0px 10px
+    }
+
+    .navbar-2 {
+        padding: 0px 10px
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .navbar-1 {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .navbar-2 {
+        display: none;
+    }
+
+    .navbar-1 {
+        display: none;
+    }
+}

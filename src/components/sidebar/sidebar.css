@@ -1,0 +1,34 @@
+.sidebar {
+    display: block;
+    text-align: center;
+    align-items: center;
+    background-color: #042235;
+    letter-spacing: 1px;
+}
+
+.sidebar .logo {
+    margin: 25px 0px;
+}
+
+.sidebar .ant-menu-item {
+    height: 80px !important;
+    padding: 20px 20px 20px 25px !important;
+    background-color: #042235 !important;
+}
+
+.sidebar .ant-menu-item-selected {
+    background-color: #2995DA !important;
+}
+
+.sidebar .ant-menu-item-selected img {
+    opacity: 1 !important;
+}
+
+
+.ant-layout-sider-dark {
+    background-color: #042235 !important;
+}
+
+.ant-layout-sider-children .ant-menu.ant-menu-inline-collapsed {
+    background-color: #042235 !important;
+}
